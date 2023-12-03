@@ -10,7 +10,7 @@ class AOCFun2 {
         return count
     }
 
-    fun gameCount(game: String): Int {
+    private fun gameCount(game: String): Int {
         val gameValues = game.split(":")
 
         val gameId = gameValues[0].split(" ")[1].toInt()
@@ -32,7 +32,7 @@ class AOCFun2 {
         return blue * green * red
     }
 
-    fun oneGrabValue(grabString: String): Array<Int> {
+    private fun oneGrabValue(grabString: String): Array<Int> {
         val valueSplit = grabString.split(",")
 
         var blueValue = 0
