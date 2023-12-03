@@ -1,6 +1,5 @@
 import java.io.File
 
 fun main() {
-
-    print(AOCFun().calibrationValue(File(ClassLoader.getSystemResource("input.txt").toURI()).readText()))
+    print(AOCFun2().cubeConundrum(File(ClassLoader.getSystemResource("input.txt").toURI()).readText()))
 }
